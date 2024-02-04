@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+    }
+    body{
+        display: flex;height: 100vh;
+    }
+    .container{
+        display: flex;justify-content: center;width: 100%;height: 100%;
+    }
+    .left{
+        width: 75%;height: 100%;overflow: hidden;
+    }
+    .girl{
+        width: 100%;height: 100vh;margin: 0%;
+    }
+    .right{
+        background-color: #ff97a4;display: flex;flex-direction: column;justify-content: center;align-items: center;width: 35%;height: 100%;
+    }
+    h1{
+        text-decoration: underline;text-decoration-style: wavy;color: white;font-size: 50px;text-underline-offset: 15px;margin-bottom: 20px;
+    }
+    .form{
+        margin: 10px;margin-bottom: 10px;
+    }
+    .form label{
+        color: white;font-size: 20px;margin-bottom: 2px;
+    }
+    .input{
+        outline: none;width: 300px;height: 40px;background-color:transparent;border-radius: 5px; border: 2px solid white;
+    }
+    p{
+        color: yellow; margin-bottom: 20px;
+    }
+    button{
+        background-color: white; color: #ff97a4;border: none;border-radius: 30px;width: 300px; height: 40px;margin: 20px;
+    }
+    .imgdiv{
+        display: flex;margin-bottom: 0%;
+    }
+    .imghold{
+        width: 45px;height: 45px;border-radius: 50%;border:1px solid white;margin: 10px;overflow: hidden;
+    }
+    .img{
+        width: 100%;height: 100%;object-fit: cover;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="girl.jpeg" alt="" class="girl">
+        </div>
+        <div class="right">
+            <h1>
+                SIGN UP
+            </h1>
+            <div class="form">
+                <label for="username">Username:</label><br>
+                <input type="text" class="input" >
+            </div>
+            <div class="form">
+                <label for="email">E-mail:</label><br>
+                <input type="email" class="input">
+            </div>
+            <div class="form">
+                <label for="password">Password:</label><br>
+                <input type="password" class="input">
+            </div>
+                <button>
+                    CREATE MY ACCOUNT
+                </button>
+                <p>Sign up with social platforms</p>
+            <div class="imgdiv">
+                <div class="imghold">
+                    <a href="">
+                        <img src="facebook.svg" alt="" class="img">
+                    </a>
+                </div>
+                <div class="imghold">
+                    <a href="">
+                        <img src="instagram.png" alt="" class="img">
+                    </a>
+                </div>
+                <div class="imghold">
+                    <a href="">
+                        <img src="tweet.png" alt="" class="">
+                    </a>
+                </div>
+                <div class="imghold">
+                    <a href="">
+                        <img src="Tumblr.png" alt="" class="img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
